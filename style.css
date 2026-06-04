@@ -1,0 +1,183 @@
+:root {
+    --bg-color: #f4f6f9;
+    --card-bg: #ffffff;
+    --text-main: #1a1a1a;
+    --text-muted: #65676b;
+    --accent-color: #bc002d;
+    --border-color: #e4e6eb;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    line-height: 1.6;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+header {
+    background-color: var(--card-bg);
+    border-bottom: 3px solid var(--accent-color);
+    padding: 40px 20px;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+header h1 span {
+    color: var(--accent-color);
+}
+
+header p {
+    color: var(--text-muted);
+    margin-top: 8px;
+}
+
+.search-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto 20px auto;
+    padding: 0 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 1rem;
+    border: 2px solid var(--border-color);
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.search-input:focus {
+    border-color: var(--accent-color);
+}
+
+.container {
+    width: 100%;
+    max-width: 500px; 
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.cars-list {
+    width: 100%;
+}
+
+.car-block {
+    background-color: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 14px;
+    padding: 30px 20px;
+    margin-bottom: 35px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    width: 100%;
+    text-align: center;
+}
+
+.car-block h2 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+
+.car-years {
+    display: inline-block;
+    background-color: #fff5f5;
+    color: var(--accent-color);
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+}
+
+/* AUTOMATICKÉ CENTROVÁNÍ A ZMENŠENÍ VŠECH OBRÁZKÙ */
+.car-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.car-desc {
+    font-size: 0.98rem;
+    color: #2f3032;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    text-align: center; 
+}
+
+.car-tech-info {
+    background-color: #f8f9fa;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+}
+
+.car-tech-info h3 {
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 6px;
+    font-weight: 800;
+}
+
+.infobox-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.infobox-table td {
+    padding: 8px 4px;
+    font-size: 0.88rem;
+    border-bottom: 1px solid #e9ecef;
+    text-align: center;
+}
+
+.infobox-table tr:last-child td {
+    border-bottom: none;
+}
+
+.infobox-table td:first-child {
+    color: var(--text-muted);
+    font-weight: bold;
+}
+
+.no-results {
+    color: var(--text-muted);
+    padding: 30px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
