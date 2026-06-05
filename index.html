@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JDM 3D Archiv</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>JDM <span>3D Archiv</span></h1>
+        <p>Toč kolečkem myši a klikni na auto pro kompletní informace</p>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="search-input" class="search-input" placeholder="Napiš auto a válec se sám otočí...">
+    </div>
+
+    <div class="container">
+        <div id="cars-list" class="cars-list">
+
+            <div class="car-block" style="--i: 0;" data-name="nissan skyline g-tr r34 rb26dett">
+                <h2>👑 Nissan Skyline GT-R (R34)</h2>
+                <span class="car-years">1999 – 2002</span>
+                <img src="skyline_r34.jpg" alt="Nissan Skyline GT-R R34" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Nissan Skyline GT-R R34 je jednou z největších ikon japonského inženýrství. Tento model proslul svým pokročilým pohonem všech kol a legendárním motorem RB26DETT. V popkultuře ho proslavila především herní série Gran Turismo a filmová série Rychle a zběsile.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Řadový šestiválec (RB26DETT)</td></tr>
+                        <tr><td>Objem:</td><td>2.6 litru (Twin-Turbo)</td></tr>
+                        <tr><td>Výkon:</td><td>206 kW / 280 koní</td></tr>
+                        <tr><td>Pohon:</td><td>4WD (ATTESA E-TS)</td></tr>
+                        <tr><td>Převodovka:</td><td>6-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 1;" data-name="toyota supra a80 2jz-gte">
+                <h2>🔥 Toyota Supra (A80)</h2>
+                <span class="car-years">1993 – 2002</span>
+                <img src="supra_a80.jpg" alt="Toyota Supra A80" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Čtvrtá generace Toyoty Supra se stala synonymem pro nezničitelný výkon. Srdcem vozu je legendární motor 2JZ-GTE, který proslul litinovým blokem schopným bez větších úprav vnitřností snést obrovské nárůsty výkonu při tuningu.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Řadový šestiválec (2JZ-GTE)</td></tr>
+                        <tr><td>Objem:</td><td>3.0 litru (Twin-Turbo)</td></tr>
+                        <tr><td>Výkon:</td><td>243 kW / 330 koní</td></tr>
+                        <tr><td>Pohon:</td><td>Pohon zadních kol (RWD)</td></tr>
+                        <tr><td>Převodovka:</td><td>6-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 2;" data-name="mazda rx-7 fd3s wankel 13b-rew">
+                <h2>🌀 Mazda RX-7 (FD3S)</h2>
+                <span class="car-years">1992 – 2002</span>
+                <img src="rx7 fd3s.jfif" alt="Mazda RX-7 FD3S" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Mazda RX-7 FD je oceňována jako jedno z nejkrásnějších aut všech dob díky svému nadčasovému designu. Unikátní byla použitím rotačního Wankelova motoru a perfektním rozložením hmotnosti 50:50.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Wankelův rotační (13B-REW)</td></tr>
+                        <tr><td>Objem:</td><td>1.3 litru (Twin-Turbo)</td></tr>
+                        <tr><td>Výkon:</td><td>206 kW / 280 koní</td></tr>
+                        <tr><td>Pohon:</td><td>Pohon zadních kol (RWD)</td></tr>
+                        <tr><td>Převodovka:</td><td>5-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 3;" data-name="honda nsx na1 v6 vtec">
+                <h2>🏎️ Honda NSX</h2>
+                <span class="car-years">1990 – 2005</span>
+                <img src="honda_nsx.jpg" alt="Honda NSX" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Honda NSX kompletně změnila svět supersportů. Ukázala světu, že exotické auto s motorem uprostřed může být spolehlivé a použitelné pro každý den. Na ladění podvozku se podílel legendární pilot F1 Ayrton Senna.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Vidlicový šestiválec (V6 VTEC)</td></tr>
+                        <tr><td>Objem:</td><td>3.0 / 3.2 litru</td></tr>
+                        <tr><td>Výkon:</td><td>201 kW / 274 koní</td></tr>
+                        <tr><td>Pohon:</td><td>Pohon zadních kol, motor uprostřed</td></tr>
+                        <tr><td>Převodovka:</td><td>5 / 6-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 4;" data-name="toyota chaser jzx100 tourer v 1jz-gte sedan">
+                <h2>🚗 Toyota Chaser (JZX100)</h2>
+                <span class="car-years">1996 – 2001</span>
+                <img src="chaser_jzx100.jpg" alt="Toyota Chaser JZX100" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Toyota Chaser ve sportovní specifikaci Tourer V je ikonický čtyřdveřový sedan, který si získal kultovní status v drifterské komunitě. Pod kapotou ukrývá skvělý motor 1JZ-GTE s jedním turbodmychadlem a technologií VVT-i.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Řadový šestiválec (1JZ-GTE)</td></tr>
+                        <tr><td>Objem:</td><td>2.5 litru (Single-Turbo)</td></tr>
+                        <tr><td>Výkon:</td><td>206 kW / 280 koní</td></tr>
+                        <tr><td>Pohon:</td><td>Pohon zadních kol (RWD)</td></tr>
+                        <tr><td>Převodovka:</td><td>5-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 5;" data-name="toyota celica gt-four st205 3s-gte rally wrc">
+                <h2>🏁 Toyota Celica (ST205)</h2>
+                <span class="car-years">1994 – 1999</span>
+                <img src="celica_st205.jpg" alt="Toyota Celica GT-Four ST205" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Homologační speciál pro mistrovství světa v rally (WRC). ST205 byla nejvýkonnější verzí modelové řady Celica. Je proslulá svým stálým pohonem všech kol, pokročilým systémem přeplňování motoru 3S-GTE a agresivním spoilerem.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Řadový čtyřválec (3S-GTE)</td></tr>
+                        <tr><td>Objem:</td><td>2.0 litru (Turbo)</td></tr>
+                        <tr><td>Výkon:</td><td>178 kW / 242 koní</td></tr>
+                        <tr><td>Pohon:</td><td>Stálý pohon všech kol (AWD)</td></tr>
+                        <tr><td>Převodovka:</td><td>5-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 6;" data-name="nissan skyline g-tr r33 rb26dett">
+                <h2>🛡️ Nissan Skyline GT-R (R33)</h2>
+                <span class="car-years">1995 – 1998</span>
+                <img src="skyline_r33.jpg" alt="Nissan Skyline GT-R R33" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Generace R33 přinesla oproti R32 delší rozvor a mnohem lepší stabilitu ve vysokých rychlostech. Stala se vůbec prvním sériově vyráběným vozem, který dokázal pokořit legendární německý okruh Nürburgring v čase pod 8 minut.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Řadový šestiválec (RB26DETT)</td></tr>
+                        <tr><td>Objem:</td><td>2.6 litru (Twin-Turbo)</td></tr>
+                        <tr><td>Výkon:</td><td>206 kW / 280 koní</td></tr>
+                        <tr><td>Pohon:</td><td>4WD (ATTESA E-TS)</td></tr>
+                        <tr><td>Převodovka:</td><td>5-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 7;" data-name="nissan skyline g-tr r32 rb26dett godzilla">
+                <h2>🦖 Nissan Skyline GT-R (R32)</h2>
+                <span class="car-years">1989 – 1994</span>
+                <img src="skyline_r32.jpg" alt="Nissan Skyline GT-R R32" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Právě tato generace dala světu legendární přezdívku „Godzilla“. Vznikla v australském šampionátu cestovních vozů, kde tento vůz naprosto deklasoval veškerou domácí i evropskou konkurenci.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Řadový šestiválec (RB26DETT)</td></tr>
+                        <tr><td>Objem:</td><td>2.6 litru (Twin-Turbo)</td></tr>
+                        <tr><td>Výkon:</td><td>206 kW / 280 koní</td></tr>
+                        <tr><td>Pohon:</td><td>4WD (ATTESA E-TS)</td></tr>
+                        <tr><td>Převodovka:</td><td>5-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 8;" data-name="honda integra type r dc2 b18c vtec">
+                <h2>⚡ Honda Integra Type R (DC2)</h2>
+                <span class="car-years">1995 – 2001</span>
+                <img src="honda_integra.jpg" alt="Honda Integra Type R DC2" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Integra Type R je považována za nejlépe ovladatelnou předokolku v historii. Verze DC2 proslula svým extrémně točivým atmosférickým motorem B18C, odlehčenou karoserií bez tlumících materiálů a továrním samosvorným diferenciálem (LSD).</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Řadový čtyřválec (B18C VTEC)</td></tr>
+                        <tr><td>Objem:</td><td>1.8 litru (Atmosférický)</td></tr>
+                        <tr><td>Výkon:</td><td>147 kW / 200 koní</td></tr>
+                        <tr><td>Pohon:</td><td>Pohon předních kol (FWD)</td></tr>
+                        <tr><td>Převodovka:</td><td>5-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 9;" data-name="mitsubishi lancer evolution ix evo 9 4g63 rally">
+                <h2>🔴 Mitsubishi Lancer Evolution IX</h2>
+                <span class="car-years">2005 – 2007</span>
+                <img src="evo_9.jpg" alt="Mitsubishi Lancer Evo IX" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Devátá generace legendárního "Eva" přinesla do ikonického motoru 4G63 technologii variabilního časování ventilů MIVEC. Společně s geniálním systémem pohonu všech kol Super AYC nabízí dodnes nepřekonatelnou trakci na jakémkoliv povrchu.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Řadový čtyřválec (4G63 MIVEC)</td></tr>
+                        <tr><td>Objem:</td><td>2.0 litru (Turbo)</td></tr>
+                        <tr><td>Výkon:</td><td>206 kW / 280 koní</td></tr>
+                        <tr><td>Pohon:</td><td>Stálý pohon všech kol (AWD)</td></tr>
+                        <tr><td>Převodovka:</td><td>6-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 10;" data-name="subaru impreza wrx sti 22b ej22 rally">
+                <h2>🔵 Subaru Impreza WRX STI 22B</h2>
+                <span class="car-years">1998</span>
+                <img src="impreza_22b.jpg" alt="Subaru Impreza 22B" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Svatý grál pro fanoušky Subaru. Limitovaná edice 22B vznikla jako oslava 40. výročí automobilky a třetího titulu v řadě v šampionátu WRC. Vyrobilo se pouhých 400 kusů s rozšířenou karoserií a větším motorem EJ22.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Boxer čtyřválec (EJ22)</td></tr>
+                        <tr><td>Objem:</td><td>2.2 litru (Turbo)</td></tr>
+                        <tr><td>Výkon:</td><td>206 kW / 280 koní</td></tr>
+                        <tr><td>Pohon:</td><td>Stálý pohon všech kol (AWD)</td></tr>
+                        <tr><td>Převodovka:</td><td>5-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 11;" data-name="honda s2000 f20c vtec roadster">
+                <h2>🦊 Honda S2000 (AP1)</h2>
+                <span class="car-years">1999 – 2009</span>
+                <img src="s2000.jpg" alt="Honda S2000" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Čistokrevný roadster, který dostal jeden z nejúžasnějších atmosférických motorů všech dob – F20C. Tento motor točí neuvěřitelných 9000 otáček za minutu a po dlouhou dobu držel rekord v nejvyšším specifickém výkonu na litr objemu bez přeplňování.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Řadový čtyřválec (F20C VTEC)</td></tr>
+                        <tr><td>Objem:</td><td>2.0 litru (Atmosférický)</td></tr>
+                        <tr><td>Výkon:</td><td>177 kW / 240 koní</td></tr>
+                        <tr><td>Pohon:</td><td>Pohon zadních kol (RWD)</td></tr>
+                        <tr><td>Převodovka:</td><td>6-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 12;" data-name="mazda mx-5 miata nb roadster mx5">
+                <h2>🍃 Mazda MX-5 Miata (NB)</h2>
+                <span class="car-years">1998 – 2005</span>
+                <img src="miata_nb.jpg" alt="Mazda Miata NB" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Druhá generace nejprodávanějšího roadsteru na světě sice přišla o mrkačky, ale přinesla tužší karoserii a lepší aerodynamiku. Miata NB je ztělesněním filozofie Jinba Ittai (splynutí jezdce a koně) – není extrémně rychlá v přímce, ale v zatáčkách je geniální.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Řadový čtyřválec (BP-4W)</td></tr>
+                        <tr><td>Objem:</td><td>1.8 litru (Atmosférický)</td></tr>
+                        <tr><td>Výkon:</td><td>103 kW / 140 koní</td></tr>
+                        <tr><td>Pohon:</td><td>Pohon zadních kol (RWD)</td></tr>
+                        <tr><td>Převodovka:</td><td>6-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 13;" data-name="nissan 350z z33 vq35de v6 coupe">
+                <h2>🦈 Nissan 350Z (Z33)</h2>
+                <span class="car-years">2002 – 2009</span>
+                <img src="350z.jpg" alt="Nissan 350Z" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Návrat legendární řady „Z“ od Nissanu na začátku tisíciletí. 350Z nabídl klasický koncept: poctivý atmosférický vidlicový šestiválec VQ35 pod dlouhou kapotou, manuál, pohon zadních kol a mechanický samosvor. Ideální nářadí pro jízdu bokem.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Vidlicový šestiválec (VQ35DE)</td></tr>
+                        <tr><td>Objem:</td><td>3.5 litru (Atmosférický)</td></tr>
+                        <tr><td>Výkon:</td><td>206 kW / 280 koní</td></tr>
+                        <tr><td>Pohon:</td><td>Pohon zadních kol (RWD)</td></tr>
+                        <tr><td>Převodovka:</td><td>6-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 14;" data-name="nissan silvia s15 spec-r sr20det drift">
+                <h2>🔮 Nissan Silvia S15 (Spec-R)</h2>
+                <span class="car-years">1999 – 2002</span>
+                <img src="silvia_s15.jpg" alt="Nissan Silvia S15" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Nejvybroušenější a poslední generace modelové řady Silvia. Verze Spec-R dostala přeplňovaný motor SR20DET, vylepšené nárůsty tuhosti karoserie a přepracované řízení. Pro driftery po celém světě je to absolutní ikona.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Řadový čtyřválec (SR20DET)</td></tr>
+                        <tr><td>Objem:</td><td>2.0 litru (Turbo)</td></tr>
+                        <tr><td>Výkon:</td><td>184 kW / 250 koní</td></tr>
+                        <tr><td>Pohon:</td><td>Pohon zadních kol (RWD)</td></tr>
+                        <tr><td>Převodovka:</td><td>6-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 15;" data-name="toyota mr2 sw20 3s-gte midship mr">
+                <h2>🚀 Toyota MR2 (SW20)</h2>
+                <span class="car-years">1989 – 1999</span>
+                <img src="mr2_sw20.jpg" alt="Toyota MR2 SW20" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Druhá generace MR2 se díky elegantním tvarům dočkala přezdívky „Ferrari chudých“. Koncepce s motorem uprostřed napříč a pohonem zadních kol poskytovala extrémní agilitu, ale vyžadovala zkušeného řidiče kvůli sklonům k náhlé přetáčivosti (snap oversteer).</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Řadový čtyřválec (3S-GTE)</td></tr>
+                        <tr><td>Objem:</td><td>2.0 litru (Turbo)</td></tr>
+                        <tr><td>Výkon:</td><td>165 kW / 225 koní</td></tr>
+                        <tr><td>Pohon:</td><td>Pohon zadních kol, motor uprostřed</td></tr>
+                        <tr><td>Převodovka:</td><td>5-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 16;" data-name="nissan stagea autech 260rs wagon rb26dett kombi">
+                <h2>🌌 Nissan Stagea Autech 260RS</h2>
+                <span class="car-years">1997 – 2001</span>
+                <img src="stagea.jpg" alt="Nissan Stagea Autech" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Představ si rodinný kombík, do kterého inženýři namontovali kompletní techniku z legendárního Skyline GT-R R33. Verze upravená dvorní ladičskou firmou Autech má motor RB26DETT, manuální převodovku i špičkovou čtyřkolku ATTESA E-TS.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Řadový šestiválec (RB26DETT)</td></tr>
+                        <tr><td>Objem:</td><td>2.6 litru (Twin-Turbo)</td></tr>
+                        <tr><td>Výkon:</td><td>206 kW / 280 koní</td></tr>
+                        <tr><td>Pohon:</td><td>4WD (ATTESA E-TS)</td></tr>
+                        <tr><td>Převodovka:</td><td>5-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 17;" data-name="honda civic type r ek9 b16b hothatch vtec">
+                <h2>🤍 Honda Civic Type R (EK9)</h2>
+                <span class="car-years">1997 – 2000</span>
+                <img src="civic_ek9.jpg" alt="Honda Civic Type R EK9" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Vůbec první Civic, který si zasloužil odznak Type R. Dostal ručně portovaný motor B16B, který točil až 8200 otáček a produkoval neskutečných 185 koní z pouhé atmosférické jedna-šestky. Auto vážilo jen 1050 kg a chovalo se jako motokára.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Řadový čtyřválec (B16B VTEC)</td></tr>
+                        <tr><td>Objem:</td><td>1.6 litru (Atmosférický)</td></tr>
+                        <tr><td>Výkon:</td><td>136 kW / 185 koní</td></tr>
+                        <tr><td>Pohon:</td><td>Pohon předních kol (FWD)</td></tr>
+                        <tr><td>Převodovka:</td><td>5-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="car-block" style="--i: 18;" data-name="mitsubishi eclipse gsx g2 4g63 coupe 4wd">
+                <h2>💎 Mitsubishi Eclipse GSX (G2)</h2>
+                <span class="car-years">1995 – 1999</span>
+                <img src="eclipse_g2.jpg" alt="Mitsubishi Eclipse GSX" class="car-img">
+                <p class="click-hint">🔍 Klikni pro celé informace</p>
+                <div class="hidden-details">
+                    <p class="modal-desc">Druhá generace Eclipse proslula hned na začátku prvního dílu filmu Rychle a zběsile. Špičková verze GSX ale na rozdíl od filmové verze nabízela stálý pohon všech čtyř kol (4WD) a legendární motor 4G63T sdílený s modely Lancer Evolution.</p>
+                    <table class="infobox-table">
+                        <tr><td>Motor:</td><td>Řadový čtyřválec (4G63T)</td></tr>
+                        <tr><td>Objem:</td><td>2.0 litru (Turbo)</td></tr>
+                        <tr><td>Výkon:</td><td>154 kW / 210 koní</td></tr>
+                        <tr><td>Pohon:</td><td>Stálý pohon všech kol (AWD)</td></tr>
+                        <tr><td>Převodovka:</td><td>5-stupňová manuální</td></tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="car-detail-modal" class="detail-modal">
+        <div class="modal-card">
+            <span class="close-modal">&times;</span>
+            <div id="modal-dynamic-content"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
